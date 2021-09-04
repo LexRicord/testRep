@@ -1,0 +1,26 @@
+﻿Сборка начата 04.09.2021 11:39:33.
+Уровень детализации журнала: Normal.     1>Проект "E:\code\vs\sem2\lab04_oap\lab04_oap\lab04_oap.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lab04_oap.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         E:\soft\cash\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt lab04_oap.cpp
+         lab04_oap.cpp
+     1>E:\code\vs\sem2\lab04_oap\lab04_oap\lab04_oap.cpp(182,7): warning C4101: choose: неиспользованная локальная переменная
+       Link:
+         E:\soft\cash\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\vs\sem2\lab04_oap\Debug\lab04_oap.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:\code\vs\sem2\lab04_oap\Debug\lab04_oap.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\vs\sem2\lab04_oap\Debug\lab04_oap.lib" /MACHINE:X86 Debug\lab04_oap.obj
+         lab04_oap.vcxproj -> E:\code\vs\sem2\lab04_oap\Debug\lab04_oap.exe
+       FinalizeBuildStatus:
+         Файл "Debug\lab04_oap.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab04_oap.tlog\lab04_oap.lastbuildstate".
+     1>Сборка проекта "E:\code\vs\sem2\lab04_oap\lab04_oap\lab04_oap.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "E:\code\vs\sem2\lab04_oap\lab04_oap\lab04_oap.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         E:\code\vs\sem2\lab04_oap\lab04_oap\lab04_oap.cpp(182,7): warning C4101: choose: неиспользованная локальная переменная
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.72
